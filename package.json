@@ -1,8 +1,8 @@
 {
-  "name": "parcel-project-template",
+  "name": "js-3-parcel",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Lart28.github.io/js-3-parcel/",
+  "homepage": "https://lart28.github.io/js-3-parcel/",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /js-3-parcel/"
@@ -18,7 +18,9 @@
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "lodash.throttle": "^4.1.1",
+    "modern-normalize": "^1.1.0",
+    "simplelightbox": "^2.12.1"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
